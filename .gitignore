@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*~
+runs/
+wandb/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Generated intermediate arrays and serialized samples
+*.pkl
+*.npy
+
+# Large project artifacts kept outside GitHub
+/data/*
+/models/*
+/result/*
+/results/*
+/checkpoints/*
+/outputs/*
+
+# Allow documentation inside artifact directories if added later
+!/data/README.md
+!/models/README.md
+!/result/README.md
+!/results/README.md

@@ -1,0 +1,26 @@
+# UR2-only ablation configuration
+TRAIN_PKL_DIR = "path/to/train/pkl"
+TRAIN_UR_DIR = "path/to/train/ur"
+VAL_PKL_DIR = "path/to/val/pkl"
+VAL_UR_DIR = "path/to/val/ur"
+TEST_PKL_DIR = "path/to/test/pkl"
+TEST_UR_DIR = "path/to/test/ur"
+OUTPUT_DIR = "path/to/output"
+TRAIN_SAMPLES = None
+VAL_SAMPLES = None
+USE_VALIDATION = True
+DIM = 256
+HEADS = 8
+FFN_DIM = 512
+DROPOUT = 0.1
+GPU_IDS = [3]
+EPOCHS = 80
+BATCH_SIZE = 4
+NUM_WORKERS = 8
+LEARNING_RATE = 1e-4
+WEIGHT_DECAY = 1e-5
+SEED = 2026
+USE_AMP = True
+SAVE_EVERY = 10
+EVAL_CHECKPOINT = OUTPUT_DIR + "/best.pt"
+EVAL_SPLIT = "val"  # val / test
