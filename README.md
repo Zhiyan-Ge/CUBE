@@ -6,8 +6,19 @@ CUBE uses H&E histology as a bridge modality. It first learns two H&E-derived re
 
 This repository contains the preprocessing, model training, benchmarking, ablation, transfer, downstream analysis, and figure-generation code used in the CUBE study.
 
-> Manuscript: *CUBE: Multimodal Representation Learning Reveals Biological Structure Across Histomorphology, Spatial Protein Phenotypes, and Transcriptome-Associated Signals*  
-> Preprint / DOI: to be added after public release.
+## Resources
+
+- **Preprint:** Ge Z, Cai H. *CUBE: Multimodal Representation Learning Reveals Biological Structure Across Histomorphology, Spatial Protein Phenotypes, and Transcriptome-Associated Signals.* bioRxiv (2026).  
+  https://doi.org/10.64898/2026.09.14.751379
+
+- **Source data:**  
+  https://doi.org/10.5281/zenodo.22713021
+
+- **Pretrained model checkpoints:**  
+  https://doi.org/10.5281/zenodo.22713201
+
+- **Source code:**  
+  https://github.com/Zhiyan-Ge/CUBE
 
 ## Overview
 
